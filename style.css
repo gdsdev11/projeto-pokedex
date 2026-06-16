@@ -31,3 +31,51 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+h1 {
+    letter-spacing: 5px;
+}
+
+.pokecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: rgb(186, 248, 92);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.87); 
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.info {
+    margin: 20px 0 20px;
+}
+
+.num {
+    padding: 2px 13px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 0.8rem;
+}
+
+.nome {
+    padding: 10px;
+    margin: 10px 0 10px;
+    letter-spacing: 1.5px;
+}
