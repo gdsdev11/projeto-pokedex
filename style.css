@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-:root {
-    --fogo: #FDDFDF;
-    --planta: #DEFDE0;
-    --eletrico: #FCF7DE;
-    --agua: #DEF3FD;
-    --terrestre: #f4e7da;
-    --rocha: #d5d5d4;
-    --fada: #fceaff;
-    --venenoso: #98d7a5; 
-    --inseto: #f8d5a3;
-    --dragao: #97b3e6;
-    --psiquico: #eaeda1;
-    --voador:  #F5F5F5;
-    --lutador: #E6E0D4;
-    --normal: #F5F5F5;
-}
-
 * {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
@@ -60,21 +43,21 @@ h1 {
     background-color: rgba(245, 245, 245, 0.87); 
     border-radius: 50%;
     padding: 10px;
-    margin: 20px;
+    margin: 20px
 }
 
 .info {
     margin: 20px 0 20px;
 }
 
-.num {
+.number {
     padding: 2px 13px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.15);
     font-size: 0.8rem;
 }
 
-.nome {
+.name {
     padding: 10px;
     margin: 10px 0 10px;
     letter-spacing: 1.5px;
